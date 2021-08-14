@@ -1,0 +1,57 @@
+#logo {
+    background-color: black;
+    
+}
+
+.center {
+    width: 1366px;
+    margin: auto
+}
+
+#menu ul ul {
+    display: none;
+}
+
+#menu ul li {
+    background-color: black;
+    height: 60px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    
+}
+
+#menu ul li:hover > ul {
+    position: relative;
+    display: block;
+    z-index: 100;
+    animation: bounce .4s;
+    
+}
+
+@keyframes bounce {
+    30%{
+        transform: translateY(-10px);
+    }
+}
+
+#navbarNavDropdown {
+    font-size: 32pt;
+    display: inline-block
+}
+
+li:hover > ul {
+    display: inline-grid;
+}
+
+.logo {
+    width: 550px;
+    height: 300px;
+    
+}
+
+
+.p-menu {
+    padding-left: 30px;
+}
